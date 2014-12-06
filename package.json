@@ -1,0 +1,30 @@
+{
+  "name": "rsu",
+  "version": "0.0.0",
+  "description": "React + Semantic Ui",
+  "main": "dist/rsu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmccrackin/React-Semantic-Ui.git"
+  },
+  "keywords": [
+    "react",
+    "semantic-ui"
+  ],
+  "author": "Grady McCrackin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gmccrackin/React-Semantic-Ui/issues"
+  },
+  "devDependencies": {
+    "webpack": "~1.4.13",
+    "webpack-dev-server": "~1.6.6",
+    "jsx-loader": "~0.12.2"
+  },
+  "dependencies": {
+    "react": "~0.12.1"
+  }
+}
