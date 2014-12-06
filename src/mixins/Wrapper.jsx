@@ -1,3 +1,5 @@
+var React = require('react');
+
 var filter = require('../utilities').filter;
 var rFilter = require('../utilities').rFilter;
 
@@ -50,6 +52,4 @@ var WrapperMixin = {
 	}
 };
 
-module.exports = {
-	WrapperMixin: WrapperMixin
-};
+module.exports = WrapperMixin;

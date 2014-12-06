@@ -5,7 +5,7 @@ module.exports = {
 	},
 
 	output: {
-		filename: 'dist/rsu-[name].js',
+		filename: 'rsu-[name].js',
 	},
 	module: [
 		{ test: /\.jsx$/, loader: 'jsx-loader'}
