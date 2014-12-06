@@ -1,6 +1,7 @@
 var React = require('react');
 
 var Input = require('jsx!./Input.jsx');
+var Form = require('jsx!./Form.jsx');
 
 /**
  * Example:
@@ -22,6 +23,7 @@ var withDefaults = function (Component, defaults) {
 
 module.exports = {
 	Input: Input,
+	Form: Form,
 	// Helper functions
 	withDefaults: withDefaults
 };
